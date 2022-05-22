@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  /* main page */
+  
+  .container {
+    background-color: #e9e9eb;
+    min-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar {
+    list-style-type: none;
+    overflow: hidden;
+    /* background-color: orange; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* height: 60px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 100px;
+    margin-top: 40px;
+  }
+
+
+  .logo{
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: rubik;
+    letter-spacing: 0.9px;
+    line-height: 20px;
+    width: 70px;
+    cursor: pointer;
+    margin-left: 100px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 450;
+    font-family: Rubik;
+    letter-spacing: 0.9px;
+    margin-left: 50px;
+  }
+  
+  li a:hover:not(.active) {
+    text-decoration-line: underline !important;
+    text-decoration-thickness: 2px !important;
+    color: rgb(20, 19, 19);
+  }
+  
+  .active {
+        text-decoration-line: underline !important;
+        text-decoration-thickness: 2px !important;
+        color: rgb(20, 19, 19);
+  }
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+
+.left{
+    width: 55%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+
+.header{
+    width: 500px;
+    height: 120px;
+    /* background-color: deeppink; */
+    padding-bottom: 30px;
+}
+
+.header p{
+    color: black;
+    font-weight: 650;
+    font-size: 90px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.subheader{
+    width: 500px;
+    height: 100px;
+    /* background-color: darkorange; */
+}
+
+.subheader p{
+    color: black;
+    font-size: 14px;
+    font-family: rubik;
+    letter-spacing: 0.9px;
+    line-height: 20px;
+
+}
+
+.shop{
+    width: 230px;
+    height: 50px;
+    background-image: linear-gradient(to right, #a4c392 , #65a068);
+    border-radius: 30px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.shop p{
+    color: black;
+    font-size: 16px;
+    font-family: rubik;
+    letter-spacing: 0.9px;
+    line-height: 20px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+
+.arrow{
+    width: 20px;
+    height: 20px;
+}
+
+.right{
+    width: 75%;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.image{
+    width: 100%;
+    height: 600px ;
+    /* background-color: #65a068; */
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* object-position: 50px 1px; */
+    object-position: 50px -40px;}
+
+
+/* .plant{
+    width: 1200px;
+    height: 600px ;
+} */
